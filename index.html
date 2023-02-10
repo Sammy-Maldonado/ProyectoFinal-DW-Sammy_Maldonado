@@ -17,13 +17,14 @@
 </head>
 
 <body class="container-fluid p-5">
+
   <header class="pb-1" id="encabezado">
     <h1 data-aos="zoom-in" class="pb-4">Churulandia</h1>
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html"><img class="header__img" src="img/churu_logo.png"
-            alt="un gato churu"></a>
+            alt="Logo de churulandia para volver a la pagina de inicio"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -42,22 +43,6 @@
             <li class="nav-item">
               <a class="nav-link" href="html/contacto.html">Contacto</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Productos
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Todas las categorías</a></li>
-                <li><a class="dropdown-item" href="#">Marcas</a></li>
-                <li><a class="dropdown-item" href="#">Alimentos para Perro</a></li>
-                <li><a class="dropdown-item" href="#">Alimentos para Gato</a></li>
-                <li><a class="dropdown-item" href="#">Juguetes</a></li>
-                <li><a class="dropdown-item" href="#">Farmacia</a></li>
-                <li><a class="dropdown-item" href="#">Veterinaria</a></li>
-                <li><a class="dropdown-item" href="#">Peluquería</a></li>
-              </ul>
-            </li>
           </ul>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
@@ -68,17 +53,19 @@
     </nav>
 
     <div class="header__links">
-      <img src="img/persona_icon.png" alt="icono_persona" class="icono_persona">
+      <img src="img/persona_icon.png" alt="icono de persona para ver tu cuenta" class="icono_persona">
       <ul class="header__links--ul">
-        <li class="micuenta_li"><a class="micuenta_a" href="html/miCuenta.html">Mi cuenta | </a></li>
+        <li class="micuenta_li">
+          <p class="p__estilos">Mi cuenta | </p>
+        </li>
       </ul>
-      <a href="html/carrito.html"><img src="img/carrito.png" alt="icono_carrito" class="icono_carrito"></a>
-      <a href="https://wa.me/" target="_blank" rel="noopener noreferrer"><img src="img/wsp.png" alt="icono_wsp"
-          class="icono_wsp"></a>
+      <a href="html/carrito.html"><img src="img/carrito.png" alt="icono de carrito para ver tu carrito de compras"
+          class="icono_carrito"></a>
+      <a href="https://wa.me/" target="_blank" rel="noopener noreferrer"><img src="img/wsp.png"
+          alt="icono de whatsapp para contactarse con nosotros" class="icono_wsp"></a>
     </div>
 
   </header>
-
 
   <main class="py-4">
 
@@ -95,15 +82,18 @@
       <div class="carousel-inner">
 
         <div class="carousel-item active">
-          <img src="img/churu-salmon-carrusel.png" class="carousel__img" alt="churu salmon">
+          <img src="img/churu-salmon-carrusel.png" class="carousel__img"
+            alt="imagen del producto sobre de churu de salmon de cuatro unidades">
         </div>
 
         <div class="carousel-item">
-          <img src="img/churu-pollo.png" class="carousel__img" alt="churu pollo">
+          <img src="img/churu-pollo.png" class="carousel__img"
+            alt="imagen del producto sobre de churu de pollo de cuatro unidades">
         </div>
 
         <div class="carousel-item">
-          <img src="img/churu-atun.jpg" class="carousel__img" alt="churu atun">
+          <img src="img/churu-atun.jpg" class="carousel__img"
+            alt="imagen del producto sobre de churu de atún de cuatro unidades">
         </div>
 
       </div>
@@ -170,27 +160,29 @@
 
     <div class="gridPadre3 my-5">
       <div class="gridPadre__gatos">
-        <img class="mascota-jugando1 img-fluid rounded-4" src="img/gato_jugando.jpg" alt="gato jugando">
+        <img class="mascota-jugando1 img-fluid rounded-4" src="img/gato_jugando.jpg"
+          alt="imagen de gato jugando que mustra nuestros productos destacados para gatos">
       </div>
 
       <div class="gridPadre__perros">
-        <img class="mascota-jugando2 img-fluid rounded-4" src="img/perro_feliz.jpg" alt="perro feliz">
+        <img class="mascota-jugando2 img-fluid rounded-4" src="img/perro_feliz.jpg"
+          alt="imagen de perro sonriendo que mustra nuestros productos destacados para perros">
       </div>
 
 
       <div class="gridPadre3_btn1">
-        <a class="buscar_btn--modify" href="#0">GATOS</a>
+        <p class="buscar_btn--modify">GATOS</p>
       </div>
 
       <div class="gridPadre3_btn2">
-        <a class="buscar_btn--modify" href="#0">PERROS</a>
+        <p class="buscar_btn--modify">PERROS</p>
       </div>
     </div>
 
     <section data-aos="fade-up" class="section__banner">
       <div class="contenedor__banner py-4 rounded-4">
         <h2 class="contenedor__banner--h2 text-center">Conoce nuestros Productos</h2>
-        <a class="contenedor__banner--a mt-4 p-2 rounded-3 text-center" href="#0">Ver Productos</a>
+        <p class="contenedor__banner--a mt-4 p-2 rounded-3 text-center">Ver Productos</p>
       </div>
     </section>
 
@@ -199,27 +191,25 @@
       <div class="gridPadre4 text-center">
 
         <div class="gridPadre4__cda my-4">
-          <a class="centro-de-ayuda1" href="#0"><img class="centro-de-ayuda1 img-fluid text-center" src="img/ayuda.png"
-              alt="centro de ayuda"></a>
-          <a class="contenedor__btn text-center" href="#0">Centro de ayuda</a>
+          <img class="centro-de-ayuda1 img-fluid text-center" src="img/ayuda.png" alt="seccion centro de ayuda">
+          <p class="contenedor__btn text-center">Centro de ayuda</a>
         </div>
 
         <div class="gridPadre4__cda my-4">
-          <a class="centro-de-ayuda2" href="#0"><img class="centro-de-ayuda2 img-fluid text-center"
-              src="img/garantia.png" alt="garantias"></a>
-          <a class="contenedor__btn text-center" href="#0">Garantías</a>
+          <img class="centro-de-ayuda2 img-fluid text-center" src="img/garantia.png"
+            alt="seccion de garantia para el cliente">
+          <p class="contenedor__btn text-center">Garantías</p>
         </div>
 
         <div class="gridPadre4__cda my-4">
-          <a class="centro-de-ayuda3" href="#0"><img class="centro-de-ayuda3 img-fluid text-center" src="img/pagos2.png"
-              alt="pagos"></a>
-          <a class="contenedor__btn text-center" href="#0">Pagos</a>
+          <img class="centro-de-ayuda3 img-fluid text-center" src="img/pagos2.png" alt="seccion de pagos">
+          <p class="contenedor__btn text-center">Pagos</p>
         </div>
 
         <div class="gridPadre4__cda my-4">
-          <a class="centro-de-ayuda4" href="#0"><img class="centro-de-ayuda4 img-fluid text-center"
-              src="img/seguimiento.png" alt="seguimiento de tu compra"></a>
-          <a class="contenedor__btn text-center" href="#0">Seguimiento</a>
+          <img class="centro-de-ayuda4 img-fluid text-center" src="img/seguimiento.png"
+            alt="seccion de seguimiento de su compra">
+          <p class="contenedor__btn text-center">Seguimiento</p>
         </div>
       </div>
       <div>
@@ -231,32 +221,28 @@
   <footer class="my-2">
     <div class="footer__contenedor my-4 text-center">
       <div class="footer__contenedor--flex1">
-        <a class="footer__contenedor--a" href="#0">
+        <div class="footer__contenedor--1">
           <p class="footer__titulo1">Ayuda</p>
-        </a>
+        </div>
         <ul class="footer__listas">
-          <li><a class="footer__a" href="#0">Centro de ayuda</a></li>
-          <li><a class="footer__a" href="#0">Seguimiento de tu compra</a></li>
           <li><a class="footer__a" href="html/contacto.html">Formulario de contacto</a></li>
+          <li><a class="footer__a" href="html/carrito.html">Carrito de compras</a></li>
         </ul>
       </div>
 
       <div class="footer__contenedor--flex2">
-        <a class="footer__contenedor--a" href="html/sobre nosotros.html">
+        <div class="footer__contenedor--1">
           <p class="footer__titulo2">Sobre nosotros</p>
-        </a>
+        </div>
         <ul class="footer__listas">
           <li><a class="footer__a" href="html/sobre nosotros.html">Quiénes somos</a></li>
-          <li><a class="footer__a" href="#0">Ventas al por Mayor</a></li>
-          <li><a class="footer__a" href="#0">Términos y Condiciones</a></li>
-          <li><a class="footer__a" href="#0">Políticas de privacidad</a></li>
         </ul>
       </div>
 
       <div class="footer__contenedor--flex3">
-        <a class="footer__contenedor--a" href="#0">
+        <div class="footer__contenedor--1">
           <p class="footer__titulo3">Agendar hora</p>
-        </a>
+        </div>
         <ul class="footer__listas">
           <li>
             <input class="footer__btn" type="button" value="Veterinario">
@@ -268,15 +254,15 @@
       </div>
 
       <div class="footer__contenedor--flex4">
-        <a class="footer__contenedor--a" href="#0">
+        <div class="footer__contenedor--1">
           <p class="footer__titulo4">Comunidad</p>
-        </a>
+        </div>
         <ul class="footer__listas">
-          <li><a class="footer__a--modify" href="https://www.facebook.com/" target="_blank">Facebook</a></li>
-          <li><a class="footer__a--modify" href="https://www.instagram.com/sammyshens/" target="_blank">Instagram</a>
+          <li><a class="footer__a" href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+          <li><a class="footer__a" href="https://www.instagram.com/sammyshens/" target="_blank">Instagram</a>
           </li>
-          <li><a class="footer__a--modify" href="https://www.youtube.com/c/shens" target="_blank">Youtube</a></li>
-          <li><a class="footer__a--modify" href="https://wa.me/" target="_blank">Whatsapp</a></li>
+          <li><a class="footer__a" href="https://www.youtube.com/c/shens" target="_blank">Youtube</a></li>
+          <li><a class="footer__a" href="https://wa.me/" target="_blank">Whatsapp</a></li>
         </ul>
       </div>
     </div>

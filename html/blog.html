@@ -17,13 +17,14 @@
 </head>
 
 <body class="container-fluid p-5">
+
   <header class="pb-1" id="encabezado">
-    <h1 data-aos="zoom-in" class="pb-4">Blog de Churulandia</h1>
+    <h1 data-aos="zoom-in" class="pb-4">Churulandia</h1>
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="../index.html"><img class="header__img" src="../img/churu_logo.png"
-            alt="un gato churu"></a>
+            alt="Logo de churulandia para volver a la pagina de inicio"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -42,22 +43,6 @@
             <li class="nav-item">
               <a class="nav-link" href="contacto.html">Contacto</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Productos
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Todas las categorías</a></li>
-                <li><a class="dropdown-item" href="#">Marcas</a></li>
-                <li><a class="dropdown-item" href="#">Alimentos para Perro</a></li>
-                <li><a class="dropdown-item" href="#">Alimentos para Gato</a></li>
-                <li><a class="dropdown-item" href="#">Juguetes</a></li>
-                <li><a class="dropdown-item" href="#">Farmacia</a></li>
-                <li><a class="dropdown-item" href="#">Veterinaria</a></li>
-                <li><a class="dropdown-item" href="#">Peluquería</a></li>
-              </ul>
-            </li>
           </ul>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
@@ -68,16 +53,16 @@
     </nav>
 
     <div class="header__links">
-      <a href="miCuenta.html"><img src="../img/persona_icon.png" alt="icono_persona" class="icono_persona"></a>
-
+      <img src="../img/persona_icon.png" alt="icono de persona para ver tu cuenta" class="icono_persona">
       <ul class="header__links--ul">
-        <li class="micuenta_li"><a class="micuenta_a" href="miCuenta.html">Mi cuenta | </a></li>
+        <li class="micuenta_li">
+          <p class="p__estilos">Mi cuenta | </p>
+        </li>
       </ul>
-
-      <a href="carrito.html"><img src="../img/carrito.png" alt="icono_carrito" class="icono_carrito"></a>
-
-      <a href="https://wa.me/" target="_blank" rel="noopener noreferrer"><img src="../img/wsp.png" alt="icono_wsp"
-          class="icono_wsp"></a>
+      <a href="carrito.html"><img src="../img/carrito.png" alt="icono de carrito para ver tu carrito de compras"
+          class="icono_carrito"></a>
+      <a href="https://wa.me/" target="_blank" rel="noopener noreferrer"><img src="../img/wsp.png"
+          alt="icono de whatsapp para contactarse con nosotros" class="icono_wsp"></a>
     </div>
 
   </header>
@@ -109,11 +94,11 @@
       </div>
 
       <div class="main__section__div2">
-        <img class="main__foto img-fluid" src="../img/perro_cuidado.jpg" alt="perro cuidado">
+        <img class="main__foto img-fluid" src="../img/perro_cuidado.jpg" alt="perro siendo atendido por un veterinario">
       </div>
 
       <div class="main__section__div3">
-        <img class="main__foto img-fluid" src="../img/Gato_bañado.png" alt="perro cuidado">
+        <img class="main__foto img-fluid" src="../img/gato_bañado.png" alt="gato siendo bañado">
       </div>
 
       <div class="main__section__div4">
@@ -161,7 +146,7 @@
       </div>
 
       <div class="main__section__div6">
-        <img class="main__foto img-fluid mb-5" src="../img/gato-feliz.jpg" alt="gato felix">
+        <img class="main__foto img-fluid mb-5" src="../img/gato-feliz.jpg" alt="gato feliz sentado en el pasto">
       </div>
 
     </section>
@@ -170,32 +155,28 @@
   <footer class="my-2">
     <div class="footer__contenedor my-4 text-center">
       <div class="footer__contenedor--flex1">
-        <a class="footer__contenedor--a" href="#0">
+        <div class="footer__contenedor--1">
           <p class="footer__titulo1">Ayuda</p>
-        </a>
+        </div>
         <ul class="footer__listas">
-          <li><a class="footer__a" href="#0">Centro de ayuda</a></li>
-          <li><a class="footer__a" href="#0">Seguimiento de tu compra</a></li>
           <li><a class="footer__a" href="contacto.html">Formulario de contacto</a></li>
+          <li><a class="footer__a" href="carrito.html">Carrito de compras</a></li>
         </ul>
       </div>
 
       <div class="footer__contenedor--flex2">
-        <a class="footer__contenedor--a" href="sobre nosotros.html">
+        <div class="footer__contenedor--1">
           <p class="footer__titulo2">Sobre nosotros</p>
-        </a>
+        </div>
         <ul class="footer__listas">
           <li><a class="footer__a" href="sobre nosotros.html">Quiénes somos</a></li>
-          <li><a class="footer__a" href="#0">Ventas al por Mayor</a></li>
-          <li><a class="footer__a" href="#0">Términos y Condiciones</a></li>
-          <li><a class="footer__a" href="#0">Políticas de privacidad</a></li>
         </ul>
       </div>
 
       <div class="footer__contenedor--flex3">
-        <a class="footer__contenedor--a" href="#0">
+        <div class="footer__contenedor--1">
           <p class="footer__titulo3">Agendar hora</p>
-        </a>
+        </div>
         <ul class="footer__listas">
           <li>
             <input class="footer__btn" type="button" value="Veterinario">
@@ -207,15 +188,14 @@
       </div>
 
       <div class="footer__contenedor--flex4">
-        <a class="footer__contenedor--a" href="#0">
+        <div class="footer__contenedor--1">
           <p class="footer__titulo4">Comunidad</p>
-        </a>
+        </div>
         <ul class="footer__listas">
-          <li><a class="footer__a--modify" href="https://www.facebook.com/" target="_blank">Facebook</a></li>
-          <li><a class="footer__a--modify" href="https://www.instagram.com/sammyshens/" target="_blank">Instagram</a>
-          </li>
-          <li><a class="footer__a--modify" href="https://www.youtube.com/c/shens" target="_blank">Youtube</a></li>
-          <li><a class="footer__a--modify" href="https://wa.me/" target="_blank">Whatsapp</a></li>
+          <li><a class="footer__a" href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+          <li><a class="footer__a" href="https://www.instagram.com/sammyshens/" target="_blank">Instagram</a></li>
+          <li><a class="footer__a" href="https://www.youtube.com/c/shens" target="_blank">Youtube</a></li>
+          <li><a class="footer__a" href="https://wa.me/" target="_blank">Whatsapp</a></li>
         </ul>
       </div>
     </div>

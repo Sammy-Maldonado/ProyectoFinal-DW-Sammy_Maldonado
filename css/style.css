@@ -50,10 +50,6 @@ h1 {
   margin-left: 0.417vw;
 }
 
-.micuenta_a {
-  width: 100px;
-}
-
 .icono_carrito {
   width: 25px;
   margin-right: 0.781vw;
@@ -67,11 +63,13 @@ h1 {
   height: 100px;
 }
 
-a {
+.p__estilos {
   color: black;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
+  width: 100px;
+  margin: 0;
 }
 
 
@@ -180,6 +178,9 @@ div.gridPadre2 div h3 {
 }
 
 .buscar_btn--modify {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0;
   align-self: center;
   justify-self: center;
   width: 10%;
@@ -227,6 +228,9 @@ div.gridPadre2 div h3 {
 }
 
 .contenedor__banner--a {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0;
   width: 50%;
   align-self: center;
   justify-self: center;
@@ -276,6 +280,9 @@ div.gridPadre2 div h3 {
 }
 
 .contenedor__btn {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0;
   align-self: center;
   justify-self: center;
   width: 10%;
@@ -319,19 +326,30 @@ footer {
 .footer__titulo4 {
   font-size: 1.8rem;
   text-decoration: underline;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0;
 }
 
 .footer__listas {
   padding: 0;
+  margin: 0;
   list-style-type: none;
 }
 
 ul.footer__listas li {
-  margin-bottom: 10px;
+  padding: 5px 0;
 }
 
-.footer__a--modify {
+.footer__a {
   font-size: 1.6rem;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 100px;
+  margin: 0;
 }
 
 .footer__btn {
@@ -720,7 +738,7 @@ textarea {
     display: none;
   }
 
-  .micuenta_a {
+  .p__estilos {
     display: none;
   }
 
@@ -729,8 +747,8 @@ textarea {
   /* Main inicio */
 
   .carousel__img {
-    width: 100% !important;
-    display: unset !important;
+    width: 100%;
+    display: unset;
     max-height: 550px;
     max-width: 550px;
   }
@@ -1009,7 +1027,7 @@ textarea {
 @media (min-width:500px) and (max-width:767px) {
 
   .carousel__img {
-    display: unset !important;
+    display: unset;
     max-height: 550px;
     max-width: 550px;
   }
@@ -1039,6 +1057,7 @@ textarea {
   .footer__titulo3,
   .footer__titulo4 {
     font-size: 1.6rem;
+    margin: 0;
   }
 
   .copyright {
@@ -1098,7 +1117,7 @@ textarea {
     display: none;
   }
 
-  .micuenta_a {
+  .p__estilos {
     display: none;
   }
 
@@ -1106,8 +1125,8 @@ textarea {
   /* MAIN */
 
   .carousel__img {
-    width: unset !important;
-    display: unset !important;
+    width: unset;
+    display: unset;
     max-height: 550px;
     max-width: 550px;
   }
@@ -1401,7 +1420,7 @@ textarea {
     list-style-type: none;
   }
 
-  .micuenta_a {
+  .p__estilos {
     display: contents;
 
   }
@@ -1609,7 +1628,7 @@ textarea {
     align-self: flex-start;
   }
 
-  .footer__contenedor--a {
+  .footer__contenedor--1 {
     display: inherit;
     align-items: center;
     justify-items: center;

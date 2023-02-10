@@ -17,13 +17,14 @@
 </head>
 
 <body class="container-fluid p-5">
+
   <header class="pb-1" id="encabezado">
-    <h1 data-aos="zoom-in" class="pb-4">Contacto</h1>
+    <h1 data-aos="zoom-in" class="pb-4">Churulandia</h1>
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="../index.html"><img class="header__img" src="../img/churu_logo.png"
-            alt="un gato churu"></a>
+            alt="Logo de churulandia para volver a la pagina de inicio"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -42,22 +43,6 @@
             <li class="nav-item">
               <a class="nav-link" href="contacto.html">Contacto</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Productos
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Todas las categorías</a></li>
-                <li><a class="dropdown-item" href="#">Marcas</a></li>
-                <li><a class="dropdown-item" href="#">Alimentos para Perro</a></li>
-                <li><a class="dropdown-item" href="#">Alimentos para Gato</a></li>
-                <li><a class="dropdown-item" href="#">Juguetes</a></li>
-                <li><a class="dropdown-item" href="#">Farmacia</a></li>
-                <li><a class="dropdown-item" href="#">Veterinaria</a></li>
-                <li><a class="dropdown-item" href="#">Peluquería</a></li>
-              </ul>
-            </li>
           </ul>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
@@ -68,16 +53,16 @@
     </nav>
 
     <div class="header__links">
-      <a href="miCuenta.html"><img src="../img/persona_icon.png" alt="icono_persona" class="icono_persona"></a>
-
+      <img src="../img/persona_icon.png" alt="icono de persona para ver tu cuenta" class="icono_persona">
       <ul class="header__links--ul">
-        <li class="micuenta_li"><a class="micuenta_a" href="miCuenta.html">Mi cuenta | </a></li>
+        <li class="micuenta_li">
+          <p class="p__estilos">Mi cuenta | </p>
+        </li>
       </ul>
-
-      <a href="carrito.html"><img src="../img/carrito.png" alt="icono_carrito" class="icono_carrito"></a>
-
-      <a href="https://wa.me/" target="_blank" rel="noopener noreferrer"><img src="../img/wsp.png" alt="icono_wsp"
-          class="icono_wsp"></a>
+      <a href="carrito.html"><img src="../img/carrito.png" alt="icono de carrito para ver tu carrito de compras"
+          class="icono_carrito"></a>
+      <a href="https://wa.me/" target="_blank" rel="noopener noreferrer"><img src="../img/wsp.png"
+          alt="icono de whatsapp para contactarse con nosotros" class="icono_wsp"></a>
     </div>
 
   </header>
@@ -91,35 +76,35 @@
       <div>
         <form class="contaco__form" method="post" action="">
           <fieldset class="contacto__fieldset">
-            <label class="contacto__label" for="first-name">Nombre <input class="contacto__input" id="first-name"
-                name="first-name" type="text" required /></label>
-            <label class="contacto__label" for="last-name">Apellido <input class="contacto__input" id="last-name"
-                name="last-name" type="text" required /></label>
+            <label class="contacto__label" for="first-name">Nombre</label><input class="contacto__input" id="first-name"
+              name="first-name" type="text" required />
+            <label class="contacto__label" for="last-name">Apellido</label><input class="contacto__input" id="last-name"
+              name="last-name" type="text" required />
 
             <div class="contacto__correo__grid">
-              <label class="contacto__label" for="email">Correo <input class="contacto__input" id="email" name="email"
-                  type="email" required /></label>
-              <label class="contacto__label" for="email">Confirma tu Correo <input class="contacto__input" id="email"
-                  name="email" type="email" required /></label>
+              <label class="contacto__label" for="email">Correo</label>
+              <label class="contacto__label" for="email">Confirma tu Correo</label>
+              <input class="contacto__input" id="email" name="email" type="email" required />
+              <input class="contacto__input" id="email" name="email" type="email" required />
             </div>
           </fieldset>
 
           <fieldset class="contacto__fieldset">
-            <label class="contacto__label" for="personal-account"><input id="personal-account" type="radio"
-                name="account-type" class="inline" /> Cuenta Personal</label>
-            <label class="contacto__label" for="business-account"><input id="business-account" type="radio"
-                name="account-type" class="inline" /> Cuenta de Negocios</label>
-            <label class="contacto__label" for="terms-and-conditions">
-              <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" />
-              acepto los <a class="form__terms-a" href="#0">términos y condiciones</a>
-            </label>
+            <div class="contacto__label" for="personal-account"><input id="personal-account" type="radio"
+                name="account-type" class="inline" /> Cuenta Personal</div>
+            <div class="contacto__label" for="business-account"><input id="business-account" type="radio"
+                name="account-type" class="inline" /> Cuenta de Negocios</div>
+            <div class="contacto__label" for="terms-and-conditions"><input id="terms-and-conditions" type="checkbox"
+                required name="terms-and-conditions" class="inline" /> acepto los <a class="form__terms-a"
+                href="#0">términos y condiciones</a>
+            </div>
           </fieldset>
 
           <fieldset class="contacto__fieldset">
-            <label class="contacto__label" for="profile-picture">Subir foto (opcional) <input class="contacto__input"
-                id="profile-picture" type="file" name="file" /></label>
-            <label class="contacto__label" for="age">Tu edad (años): <input class="contacto__input" id="age"
-                type="number" name="age" min="13" max="120" /></label>
+            <div class="contacto__label" for="profile-picture">Subir foto (opcional) <input class="contacto__input"
+                id="profile-picture" type="file" name="file" /></div>
+            <div class="contacto__label" for="age">Tu edad (años): <input class="contacto__input" id="age" type="number"
+                name="age" min="13" max="120" /></div>
             <label class="contacto__label" for="referrer">¿Como te enteraste de nosotros?
               <select id="referrer" name="referrer">
                 <option value="">(selecciona una)</option>
@@ -159,32 +144,28 @@
   <footer class="my-2">
     <div class="footer__contenedor my-4 text-center">
       <div class="footer__contenedor--flex1">
-        <a class="footer__contenedor--a" href="#0">
+        <div class="footer__contenedor--1">
           <p class="footer__titulo1">Ayuda</p>
-        </a>
+        </div>
         <ul class="footer__listas">
-          <li><a class="footer__a" href="#0">Centro de ayuda</a></li>
-          <li><a class="footer__a" href="#0">Seguimiento de tu compra</a></li>
           <li><a class="footer__a" href="contacto.html">Formulario de contacto</a></li>
+          <li><a class="footer__a" href="carrito.html">Carrito de compras</a></li>
         </ul>
       </div>
 
       <div class="footer__contenedor--flex2">
-        <a class="footer__contenedor--a" href="sobre nosotros.html">
+        <div class="footer__contenedor--1">
           <p class="footer__titulo2">Sobre nosotros</p>
-        </a>
+        </div>
         <ul class="footer__listas">
           <li><a class="footer__a" href="sobre nosotros.html">Quiénes somos</a></li>
-          <li><a class="footer__a" href="#0">Ventas al por Mayor</a></li>
-          <li><a class="footer__a" href="#0">Términos y Condiciones</a></li>
-          <li><a class="footer__a" href="#0">Políticas de privacidad</a></li>
         </ul>
       </div>
 
       <div class="footer__contenedor--flex3">
-        <a class="footer__contenedor--a" href="#0">
+        <div class="footer__contenedor--1">
           <p class="footer__titulo3">Agendar hora</p>
-        </a>
+        </div>
         <ul class="footer__listas">
           <li>
             <input class="footer__btn" type="button" value="Veterinario">
@@ -196,15 +177,14 @@
       </div>
 
       <div class="footer__contenedor--flex4">
-        <a class="footer__contenedor--a" href="#0">
+        <div class="footer__contenedor--1">
           <p class="footer__titulo4">Comunidad</p>
-        </a>
+        </div>
         <ul class="footer__listas">
-          <li><a class="footer__a--modify" href="https://www.facebook.com/" target="_blank">Facebook</a></li>
-          <li><a class="footer__a--modify" href="https://www.instagram.com/sammyshens/" target="_blank">Instagram</a>
-          </li>
-          <li><a class="footer__a--modify" href="https://www.youtube.com/c/shens" target="_blank">Youtube</a></li>
-          <li><a class="footer__a--modify" href="https://wa.me/" target="_blank">Whatsapp</a></li>
+          <li><a class="footer__a" href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+          <li><a class="footer__a" href="https://www.instagram.com/sammyshens/" target="_blank">Instagram</a></li>
+          <li><a class="footer__a" href="https://www.youtube.com/c/shens" target="_blank">Youtube</a></li>
+          <li><a class="footer__a" href="https://wa.me/" target="_blank">Whatsapp</a></li>
         </ul>
       </div>
     </div>
