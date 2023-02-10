@@ -84,8 +84,8 @@ main {
 }
 
 .carousel__img {
-  width: unset !important;
-  display: unset !important;
+  width: unset;
+  display: unset;
   max-height: 550px;
   max-width: 550px;
 }
