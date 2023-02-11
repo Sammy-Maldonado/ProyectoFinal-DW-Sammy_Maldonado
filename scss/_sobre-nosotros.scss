@@ -1,0 +1,61 @@
+/* Sobre nosotros */
+.main__h2--sn {
+  font-size: 5rem;
+  color: $color_rojo;
+  font-style: italic;
+}
+
+.textos__sobre-nosotros {
+  text-align: center;
+}
+
+.contenedor__sobre-nosotros {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(2, auto);
+  row-gap: 0;
+  margin: 50px auto;
+  border-radius: 20px;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/empresa-de-noche.jpg);
+  background-size: cover;
+  background-position: center -300px;
+}
+
+.sobre-nosotros__p1 {
+  color: $color_blanco;
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 6rem;
+  letter-spacing: 5px;
+  grid-row: 1/2;
+  margin-bottom: 0;
+  align-self: flex-end;
+}
+
+.sobre-nosotros__p2 {
+  color: $color_blanco;
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 6rem;
+  letter-spacing: 5px;
+  grid-row: 2/3;
+  align-self: flex-start;
+  margin: 0;
+}
+
+.sobre-nosotros__grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 20px;
+  align-items: center;
+  justify-items: center;
+}
+
+.sobre-nosotros__texto {
+  text-align: left;
+}

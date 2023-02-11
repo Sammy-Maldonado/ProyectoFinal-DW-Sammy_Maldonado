@@ -1,0 +1,22 @@
+/* MIXIN */
+
+@mixin pya {
+  color: $color_negro;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 100px;
+  margin: 0;
+}
+
+
+@mixin footer__titulos {
+  font-size: 1.8rem;
+  text-decoration: underline;
+  color: $color_negro;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* El mixin se utilizó en el header: .p__estilos, y en el footer */

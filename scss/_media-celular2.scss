@@ -1,0 +1,72 @@
+@media (min-width:500px) and (max-width:767px) {
+  .carousel__img {
+    display: unset;
+    max-height: 550px;
+    max-width: 550px;
+  }
+
+  .gridPadre4 {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(2, auto);
+  }
+
+  .mascota-jugando1 {
+    max-width: 400px;
+  }
+
+  .mascota-jugando2 {
+    max-width: 400px;
+  }
+
+  .contenedor__btn {
+    margin: 0;
+  }
+
+  .gridPadre4__cda {
+    display: inherit;
+    grid-template-rows: repeat(2, auto);
+  }
+
+  .footer__titulo1 {
+    font-size: 1.6rem;
+    margin: 0;
+  }
+
+  .footer__titulo2 {
+    font-size: 1.6rem;
+    margin: 0;
+  }
+
+  .footer__titulo3 {
+    font-size: 1.6rem;
+    margin: 0;
+  }
+
+  .footer__titulo4 {
+    font-size: 1.6rem;
+    margin: 0;
+  }
+
+  .copyright {
+    font-size: 1.4rem;
+  }
+
+  /* Main sobre nosotros */
+
+  .sobre-nosotros__p1 {
+    font-size: 5.2rem;
+  }
+
+  .sobre-nosotros__p2 {
+    font-size: 5.2rem;
+  }
+
+  .main__h2--sn {
+    font-size: 3rem;
+    color: $color_rojo;
+    font-style: italic;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+}

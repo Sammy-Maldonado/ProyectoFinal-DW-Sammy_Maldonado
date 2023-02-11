@@ -1,0 +1,286 @@
+@media (min-width:1200px) {
+
+  /* HEADER */
+  header {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+  }
+
+  h1 {
+    grid-column: 3/5;
+    grid-row: 1/2;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .navbar {
+    grid-column: 1/5;
+  }
+
+  .header__links {
+    grid-column: 5/7;
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .header__links--ul {
+    display: contents;
+    list-style-type: none;
+  }
+
+  .p__estilos {
+    display: contents;
+  }
+
+  /* MAIN */
+
+  .item1 {
+    height: 250px;
+  }
+
+  .item2 {
+    height: 250px;
+  }
+
+  .item3 {
+    height: 250px;
+  }
+
+  .item4 {
+    height: 250px;
+  }
+
+  .gridPadre3 {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .gridPadre__perros {
+    margin: 0;
+  }
+
+  .mascota-jugando1 {
+    max-width: 400px;
+    height: 300px;
+  }
+
+  .mascota-jugando2 {
+    max-width: 400px;
+    height: 300px;
+  }
+
+  .gridPadre3_btn1 {
+    grid-column: 1/2;
+  }
+
+  .gridPadre3_btn2 {
+    grid-column: 2/3;
+  }
+
+  .gridPadre4 {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: auto;
+  }
+
+  /* Main blog */
+
+  .main__section__div1 {
+    h3 {
+      font-weight: bold;
+    }
+  }
+
+  .main__section__div4 {
+    h3 {
+      font-weight: bold;
+    }
+  }
+
+  .main__section__div5 {
+    h3 {
+      font-weight: bold;
+    }
+  }
+
+  /* Main sobre nosotros */
+
+  .main__h2--sn {
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+
+  .contenedor__sobre-nosotros {
+    justify-content: flex-start;
+    margin: 0;
+  }
+
+  .sobre-nosotros__grid {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0;
+    justify-content: flex-start;
+  }
+
+  /* Main Contacto */
+
+  .contacto__grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: auto;
+    gap: 20px;
+    margin-top: 30px;
+  }
+
+  .contacto__grid--modify {
+    margin-top: 40px;
+  }
+
+  .contacto__grid--container {
+    padding: 10px 10px;
+  }
+
+  .contacto__grid--mp {
+    display: block;
+    text-align: left;
+  }
+
+  .textos--modify {
+    padding-bottom: 30px;
+  }
+
+  /* Main carrito de compras */
+
+  .textos__carrito {
+    padding-left: 2.6vw;
+    padding-right: 2.6vw;
+  }
+
+  .carrito__p1 {
+    grid-column: 2/3;
+  }
+
+  .carrito__p2 {
+    grid-column: 6/7;
+  }
+
+  .carrito__p3 {
+    grid-column: 7/8;
+  }
+
+  .carrito__p1--modify {
+    grid-column: 2/3;
+  }
+
+  .carrito__p2__container {
+    grid-column: 3/6;
+    padding-left: 20px;
+  }
+
+  .carrito__p2--modify1 {
+    padding: 0;
+    text-align: left;
+    padding: 0;
+  }
+
+  .carrito__input {
+    grid-column: 6/7;
+  }
+
+  .carrito__p4--modify {
+    grid-column: 7/8;
+  }
+
+  .carrito__p2--modify2 {
+    text-align: left;
+    padding: 10px 0 0;
+  }
+
+  .carrito__p {
+    margin: 0;
+    grid-column: 1/7;
+    padding-right: 20px;
+  }
+
+  .carrito__total {
+    margin: 0;
+    grid-column: 7/8;
+    justify-self: right;
+  }
+
+  .carrito__btn {
+    margin: 0;
+    grid-column: 7/8;
+  }
+
+  /* FOOTER */
+
+  footer {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(2, auto);
+  }
+
+  .footer__contenedor {
+    display: inherit;
+    align-items: center;
+    justify-items: center;
+    padding-left: 2.6vw;
+    padding-right: 2.6vw;
+  }
+
+  .footer__contenedor--flex1 {
+    grid-column: 1/2;
+    align-self: flex-start;
+  }
+
+  .footer__contenedor--flex2 {
+    grid-column: 2/3;
+    align-self: flex-start;
+  }
+
+  .footer__contenedor--flex3 {
+    grid-column: 3/4;
+    align-self: flex-start;
+  }
+
+  .footer__contenedor--flex4 {
+    grid-column: 4/5;
+    align-self: flex-start;
+  }
+
+  .footer__contenedor--1 {
+    display: inherit;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .footer__titulo1 {
+    text-align: left;
+  }
+
+  .footer__titulo2 {
+    text-align: left;
+  }
+
+  .footer__titulo3 {
+    text-align: left;
+  }
+
+  .footer__titulo4 {
+    text-align: left;
+  }
+
+  .footer__listas {
+    text-align: left;
+  }
+
+  .copyright {
+    grid-row: 2/3;
+  }
+}

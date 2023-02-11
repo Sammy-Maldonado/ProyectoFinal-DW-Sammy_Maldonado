@@ -1,0 +1,73 @@
+/* FOOTER */
+footer {
+  border-top: 2px solid rgb(181, 181, 181);
+}
+
+.footer__contenedor {
+  padding-left: 2.6vw;
+  padding-right: 2.6vw;
+}
+
+.footer__titulo1 {
+  @include footer__titulos;
+}
+
+.footer__titulo2 {
+  @include footer__titulos;
+}
+
+.footer__titulo3 {
+  @include footer__titulos;
+}
+
+.footer__titulo4 {
+  @include footer__titulos;
+}
+
+.footer__listas {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+ul.footer__listas {
+  li {
+    padding: 5px 0;
+  }
+}
+
+.footer__a {
+  font-size: 1.6rem;
+  @include pya;
+}
+
+.footer__btn {
+  align-self: center;
+  justify-self: center;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: $bkg-color_4;
+  border: none;
+  color: $color_blanco;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.6rem;
+  box-shadow: 2px 2px 5px #000;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:active {
+    background-color: $bkg-color_5;
+    color: $color_negro;
+  }
+}
+
+.copyright {
+  font-size: 1.4rem;
+  text-align: right;
+  border-top: 2px solid rgb(181, 181, 181);
+}

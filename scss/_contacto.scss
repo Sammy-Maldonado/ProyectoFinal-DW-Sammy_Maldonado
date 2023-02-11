@@ -1,0 +1,111 @@
+/* Contacto */
+.contacto__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 50px;
+}
+
+.contaco__form {
+  border: 2px solid #000;
+  border-color: $bd-color_1;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+.contacto__fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+
+  &:last-of-type {
+    border-bottom: none;
+  }
+}
+
+.contacto__label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.contacto__input {
+  margin: 10px 0 0 0;
+  width: 95%;
+  min-height: 2em;
+  text-align: center;
+  border-radius: 6px;
+  background-color: $bkg-color_6;
+  border: 1px solid #0a0a23;
+  color: $color_form;
+}
+
+textarea {
+  margin: 10px 0 0 0;
+  width: 95%;
+  min-height: 2em;
+  text-align: center;
+  border-radius: 6px;
+  background-color: $bkg-color_6;
+  border: 1px solid #0a0a23;
+  color: $color_form;
+}
+
+select {
+  margin: 10px 0 0 0;
+  width: 95%;
+  min-height: 2em;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+.contacto__input[type="submit"] {
+  margin-left: 20px;
+  width: 50%;
+  border-radius: 10px;
+  background-color: $bkg-color_7;
+  border: none;
+  color: $color_blanco;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.6rem;
+  box-shadow: 2px 2px 5px #000;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:active {
+    background-color: $bkg-color_8;
+    color: $color_negro;
+  }
+}
+
+.contacto__input[type="file"] {
+  padding: 1px 2px;
+}
+
+.contacto__correo__grid {
+  display: grid;
+  margin: auto 10px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.form__terms-a {
+  text-transform: lowercase;
+}
+
+.contacto__grid--modify {
+  align-self: center;
+  justify-self: center;
+}

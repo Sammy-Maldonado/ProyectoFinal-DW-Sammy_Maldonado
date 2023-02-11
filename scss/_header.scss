@@ -1,0 +1,52 @@
+/* HEADER */
+header {
+  border-bottom: 0.104vw solid rgb(181, 181, 181);
+  padding-left: 2.6vw;
+  padding-right: 2.6vw;
+}
+
+h1 {
+  color: $color_rojo;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 5rem;
+  font-style: italic;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin: 0;
+}
+
+.header__links {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.icono_persona {
+  width: 12px;
+}
+
+.micuenta_li {
+  margin-left: 0.417vw;
+}
+
+.icono_carrito {
+  width: 25px;
+  margin-right: 0.781vw;
+}
+
+.icono_wsp {
+  width: 20px;
+}
+
+.header__img {
+  height: 100px;
+}
+
+.p__estilos {
+  @include pya;
+}
