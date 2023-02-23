@@ -54,12 +54,25 @@
     row-gap: 2.14vh;
   }
 
+  .item1 {
+    display: flex;
+    justify-self: center;
+    height: 250px;
+    max-width: 425px;
+  }
+
+  .item2 {
+    display: flex;
+    justify-self: center;
+    height: 250px;
+    max-width: 425px;
+  }
+
   .item3 {
     display: contents;
     display: flex;
     justify-self: center;
     height: 250px;
-    width: 100%;
     max-width: 425px;
   }
 
@@ -68,23 +81,6 @@
     display: flex;
     justify-self: center;
     height: 250px;
-    width: 100%;
-    max-width: 425px;
-  }
-
-  .item1 {
-    display: flex;
-    justify-self: center;
-    height: 250px;
-    width: 100%;
-    max-width: 425px;
-  }
-
-  .item2 {
-    display: flex;
-    justify-self: center;
-    height: 250px;
-    width: 100%;
     max-width: 425px;
   }
 
