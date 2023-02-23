@@ -310,7 +310,10 @@
   /* FOOTER */
 
   .footer__contenedor {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    column-gap: 10px;
     align-items: center;
     justify-items: center;
     justify-content: space-around;
